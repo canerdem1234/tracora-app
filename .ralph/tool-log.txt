@@ -74,3 +74,6 @@
 [17:28:22] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\[locale]\layout.tsx
 [17:29:40] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\[locale]\page.tsx
 [17:29:48] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\page.tsx
+[17:49:24] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\email.ts
+[17:49:39] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\contact\route.ts
+[17:49:51] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\waitlist\route.ts

@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { waitlistSchema } from "@/lib/validations";
+import { sendWaitlistConfirmation, sendWaitlistAdminNotification } from "@/lib/email";
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
 
-    // Zod ile doğrula
     const result = waitlistSchema.safeParse(body);
     if (!result.success) {
       return NextResponse.json(
@@ -31,6 +31,17 @@ export async function POST(req: NextRequest) {
       }
       throw error;
     }
+
+    // Toplam kayıt sayısını al (admin bildirimi için)
+    const { count } = await supabase
+      .from("waitlist")
+      .select("*", { count: "exact", head: true });
+
+    // Email'leri paralel gönder (hata olsa bile kaydı bozmadan devam et)
+    await Promise.allSettled([
+      sendWaitlistConfirmation(email),
+      sendWaitlistAdminNotification(email, count ?? undefined),
+    ]);
 
     return NextResponse.json({ success: true });
   } catch {

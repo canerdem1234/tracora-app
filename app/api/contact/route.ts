@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { sendContactEmail } from "@/lib/email";
 
 const contactSchema = z.object({
   name: z.string().min(1).max(100).trim(),
@@ -18,11 +19,12 @@ export async function POST(req: NextRequest) {
 
     const { name, email, subject, message } = parsed.data;
 
-    // Şimdilik console'a log at (ilerleyen aşamada email servisi eklenecek)
-    console.log("[CONTACT FORM]", { name, email, subject, message: message.slice(0, 100) });
+    const { error } = await sendContactEmail({ name, email, subject, message });
+    if (error) {
+      console.error("[CONTACT EMAIL ERROR]", error);
+      return NextResponse.json({ error: "Mail gönderilemedi. Lütfen tekrar deneyin." }, { status: 500 });
+    }
 
-    // TODO: Resend veya Nodemailer ile hello@tracora.ai'ya ilet
-    // Şimdilik 200 dön
     return NextResponse.json({ success: true });
   } catch {
     return NextResponse.json({ error: "Sunucu hatası." }, { status: 500 });
