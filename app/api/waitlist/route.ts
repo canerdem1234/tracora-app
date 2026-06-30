@@ -1,28 +1,26 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@supabase/supabase-js";
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+import { createClient } from "@/lib/supabase/server";
+import { waitlistSchema } from "@/lib/validations";
 
 export async function POST(req: NextRequest) {
   try {
-    const { email } = await req.json();
+    const body = await req.json();
 
-    if (!email || !email.includes("@")) {
-      return NextResponse.json({ error: "Geçerli bir email girin." }, { status: 400 });
+    // Zod ile doğrula
+    const result = waitlistSchema.safeParse(body);
+    if (!result.success) {
+      return NextResponse.json(
+        { error: result.error.issues[0].message },
+        { status: 400 }
+      );
     }
 
-    // Supabase henüz bağlanmadıysa, email'i logla (geliştirme aşaması)
-    if (!supabaseUrl || supabaseUrl.includes("xxxxx")) {
-      console.log("Waitlist email (Supabase bağlı değil):", email);
-      return NextResponse.json({ success: true, message: "Listeye eklendi." });
-    }
+    const { email } = result.data;
 
-    const supabase = createClient(supabaseUrl, supabaseKey);
-
+    const supabase = await createClient();
     const { error } = await supabase
       .from("waitlist")
-      .insert([{ email, created_at: new Date().toISOString() }]);
+      .insert([{ email }]);
 
     if (error) {
       if (error.code === "23505") {
@@ -35,8 +33,7 @@ export async function POST(req: NextRequest) {
     }
 
     return NextResponse.json({ success: true });
-  } catch (err) {
-    console.error("Waitlist error:", err);
+  } catch {
     return NextResponse.json(
       { error: "Sunucu hatası. Lütfen tekrar dene." },
       { status: 500 }
