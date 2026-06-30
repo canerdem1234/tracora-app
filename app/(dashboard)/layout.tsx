@@ -54,6 +54,15 @@ export default async function DashboardLayout({
             </svg>
             AI Sorgular
           </Link>
+          <Link
+            href="/dashboard/billing"
+            className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/5 transition-all text-sm"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+            </svg>
+            Abonelik
+          </Link>
         </nav>
 
         <div className="p-4 border-t border-white/5">
