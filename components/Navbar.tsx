@@ -56,12 +56,20 @@ export default function Navbar() {
         </div>
 
         {/* CTA */}
-        <button
-          onClick={scrollToWaitlist}
-          className="btn-primary text-sm px-5 py-2.5"
-        >
-          Erken Erişim Al
-        </button>
+        <div className="flex items-center gap-3">
+          <a
+            href="/login"
+            className="text-slate-400 hover:text-white text-sm transition-colors"
+          >
+            Giriş Yap
+          </a>
+          <button
+            onClick={scrollToWaitlist}
+            className="btn-primary text-sm px-5 py-2.5"
+          >
+            Erken Erişim Al
+          </button>
+        </div>
       </div>
     </nav>
   );
