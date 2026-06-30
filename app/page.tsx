@@ -503,8 +503,9 @@ export default function Home() {
           </div>
           <p className="text-slate-600 text-sm">© 2026 Tracora. Track Your AI Presence.</p>
           <div className="flex gap-6">
-            <a href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">Gizlilik</a>
-            <a href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">Kullanım Şartları</a>
+            <a href="/privacy" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">Gizlilik</a>
+            <a href="/terms" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">Kullanım Şartları</a>
+            <a href="/user-agreement" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">Sözleşme</a>
             <a href="mailto:hello@tracora.ai" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">İletişim</a>
           </div>
         </div>
