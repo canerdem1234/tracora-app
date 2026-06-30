@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "motors": "AI Motorları",
+    "pricing": "Fiyatlar",
+    "login": "Giriş Yap",
+    "cta": "Erken Erişim Al"
+  },
+  "hero": {
+    "badge": "Erken Erişim Listesi Açık",
+    "title1": "AI'da Markanız",
+    "title2": "Ne Kadar Görünür?",
+    "subtitle": "ChatGPT, Perplexity, Gemini, Claude, Grok ve 10+ AI motorunda markanızın görünürlüğünü izleyin, rakiplerinizle kıyaslayın ve büyütün. Slack bildirimi + CRM entegrasyonu ile tam kontrol.",
+    "discount": "İlk 100 kullanıcıya %40 ömür boyu indirim",
+    "noCard": "Kredi kartı gerekmez.",
+    "waitlistBtn": "Erken Erişim Al"
+  },
+  "stats": {
+    "s1v": "%73", "s1l": "B2B web sitesi 2025'te organik trafik kaybetti",
+    "s2v": "4.4x", "s2l": "AI trafiği SEO'dan daha yüksek dönüşüm sağlıyor",
+    "s3v": "%67", "s3l": "Fortune 500 şirketi 2026'da GEO'yu öncelik yapıyor",
+    "s4v": "$7.3B", "s4l": "AI izleme pazar büyüklüğü tahmini 2030"
+  },
+  "problem": {
+    "emoji": "😰",
+    "title": "Müşterileriniz AI'a soruyor,",
+    "titleRed": "rakibinizin adını alıyorlar.",
+    "desc": "ChatGPT veya Perplexity gibi AI araçlarıyla ürün ve hizmet araştıran kullanıcılar arasında Google aramalar %40 düştü. Bir yanıt alıyorlar — ve markanız bu yanıtta olmayabilir.",
+    "pain1": "Markanız AI yanıtlarında görünmüyor",
+    "pain2": "Rakipler AI'da sizin önünüzde yer kapıyor",
+    "pain3": "Elinizde veri yok, ölçüm yok, strateji yok"
+  },
+  "motors": {
+    "badge": "10+ AI Motoru",
+    "title": "Tüm AI Motorlarını Tek Yerden",
+    "titleGrad": "İzleyin",
+    "desc": "Piyasadaki diğer araçlar maksimum 5-6 motor kapsarken, Tracora Claude, Grok, DeepSeek, Meta AI dahil 10+ AI motorunu takip eder. Daha fazla motor, daha eksiksiz veri."
+  },
+  "features": {
+    "badge": "Özellikler",
+    "title": "Rakiplerde Olan Her Şey +",
+    "titleGrad": "Olmayan Daha Fazlası",
+    "desc": "Pazar liderleri sadece GEO izlemeye odaklanırken, Tracora marka stratejisini daha ileri taşıyor.",
+    "badges": {
+      "exclusive": "Sadece Tracora'da",
+      "advanced": "Gelişmiş",
+      "notAtComp": "Rakipte yok",
+      "agency": "Agency"
+    }
+  },
+  "featureList": [
+    { "icon": "🔍", "title": "10+ AI Motoru İzleme", "desc": "ChatGPT, Perplexity, Gemini, Claude, Grok, DeepSeek, Meta AI ve daha fazlasında markanız nasıl görünüyor, tek panelde izleyin.", "badge": "notAtComp" },
+    { "icon": "🔔", "title": "Slack & Teams Bildirimi", "desc": "Görünürlüğünüz değiştiğinde veya rakibiniz öne geçtiğinde Slack ya da Teams kanalınıza anında bildirim gelir.", "badge": "exclusive" },
+    { "icon": "🔗", "title": "HubSpot & Salesforce", "desc": "AI görünürlük veriniz doğrudan CRM'inize akar. Satış ekibiniz de bu veriyi görür, ayrı araç açmak zorunda kalmaz.", "badge": "exclusive" },
+    { "icon": "📊", "title": "Rakip Karşılaştırma", "desc": "Rakiplerinizin her AI motorundaki skorunu izleyin. Kimin öne geçtiğini, nerede geride kaldığınızı gerçek zamanlı görün.", "badge": "advanced" },
+    { "icon": "🎭", "title": "Sentiment Analizi", "desc": "AI motorları markanızı nasıl anlatıyor? Pozitif mi, negatif mi? Hangi konularda olumsuz bahsedildiğini tespit edin.", "badge": "advanced" },
+    { "icon": "💡", "title": "İçerik Optimizasyon", "desc": "AI'da daha çok görünmek için hangi içerikleri yazmanız gerektiğini, mevcut içeriklerinizin ne kadar atıf aldığını gösteririz.", "badge": "exclusive" },
+    { "icon": "📈", "title": "AI → Satış Atıfı", "desc": "GA4 entegrasyonuyla AI motorlarından gelen trafiğin satışa etkisini somut olarak ölçün. ROI'yi kanıtlayın.", "badge": "advanced" },
+    { "icon": "🏷️", "title": "White-label Raporlar", "desc": "Ajanslar için: müşterilerinize kendi markanızla sunum kalitesinde raporlar oluşturun. Tracora arka planda çalışır.", "badge": "agency" },
+    { "icon": "⚡", "title": "Gerçek Zamanlı API", "desc": "Kendi sistemlerinize Tracora verilerini entegre edin. Zapier, Make ve REST API ile 5.000+ uygulamaya bağlanın.", "badge": "agency" }
+  ],
+  "comparison": {
+    "badge": "Karşılaştırma",
+    "title": "Rakiplerde Ne Var,",
+    "titleGrad": "Tracora'da Ne Var?",
+    "desc": "Piyasadaki diğer araçlar sadece GEO izlemeye odaklanırken, Tracora marka stratejisini daha ileri taşıyor.",
+    "features": ["AI Motor Sayısı", "Slack Bildirimi", "Teams Bildirimi", "HubSpot", "Salesforce", "Grok İzleme", "DeepSeek İzleme", "İçerik Önerileri", "Rakip Spike Alarmı", "White-label"],
+    "headers": ["Araç 1", "Araç 2", "Araç 3", "Tracora"],
+    "prices": ["$99+/ay", "$149+/ay", "$79+/ay", "$49/ay"]
+  },
+  "pricing": {
+    "badge": "Fiyatlandırma",
+    "title": "Her Ölçekteki İşletme İçin",
+    "desc": "Ücretsiz dene, kredi kartı gerekmez. İstediğin zaman iptal et.",
+    "period": "/ay",
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "10+ marka, özel entegrasyonlar ve SLA garantisi için. Günde 50.000+ sorgu.",
+    "enterpriseCta": "Bizimle İletişime Geç",
+    "plans": [
+      {
+        "name": "Starter", "price": "$49", "desc": "Bireysel pazarlamacılar ve küçük işletmeler için",
+        "features": ["7 AI Motoru", "1 Marka + 3 Rakip", "Slack Bildirimi", "GA4 Entegrasyonu", "Aylık PDF Raporu", "Email Desteği"],
+        "cta": "Başla"
+      },
+      {
+        "name": "Pro", "price": "$149", "desc": "Büyüyen ekipler ve profesyonel pazarlamacılar için",
+        "features": ["10+ AI Motoru (tam liste)", "5 Marka + 10 Rakip", "Slack + Teams Bildirimi", "HubSpot Entegrasyonu", "Sentiment Analizi", "Attribution Modeli", "Kaynak Atıf Analizi"],
+        "cta": "En Popüler"
+      },
+      {
+        "name": "Agency", "price": "$399", "desc": "Dijital ajanslar ve çoklu müşteri yönetimi için",
+        "features": ["10+ AI Motoru", "Sınırsız Marka & Rakip", "White-label Raporlama", "Salesforce Entegrasyonu", "REST API Erişimi", "Müşteri Portalı", "Dedicated Account Manager"],
+        "cta": "Ajans Planı"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "SSS",
+    "title": "Sık Sorulan Sorular",
+    "items": [
+      { "q": "Tracora diğer araçlardan nasıl farklı?", "a": "Piyasadaki diğer araçlarda olmayan 3 kritik özellik sunuyoruz: Slack/Teams gerçek zamanlı bildirimi, HubSpot + Salesforce CRM entegrasyonu ve 10+ AI motoru (Claude, Grok, DeepSeek, Meta AI dahil). Hiçbir alternatif bu 3'ünü birden sunmuyor." },
+      { "q": "Veriler ne sıklıkla güncelleniyor?", "a": "Starter ve Pro planlarda günlük otomatik tarama yapılıyor. Agency ve Enterprise planlarda saatlik tarama mevcut. Anlık değişiklikler Slack/Teams bildirimiyle anında iletilir." },
+      { "q": "AI motorlarına gerçekten sorgu atılıyor mu?", "a": "Evet. Tracora, belirlediğiniz anahtar kelimelerle her AI motoruna gerçek sorgular gönderir ve yanıtları analiz eder. Simüle edilmiş veri değil, gerçek zamanlı ölçüm." },
+      { "q": "Ajanslar için white-label nasıl çalışıyor?", "a": "Agency planında raporlara kendi logonuzu, renk paletinizi ve domain'inizi ekleyebilirsiniz. Müşterileriniz Tracora'nun varlığından haberdar olmaz." }
+    ]
+  },
+  "finalCta": {
+    "title": "AI Çağında Görünür Ol.",
+    "desc": "Rakibiniz şu an AI'da öne geçiyor. Ölçmeden büyütemezsiniz.",
+    "waitlistBtn": "Erken Erişim Al",
+    "noCard": "Ücretsiz başla. İlk 100 kullanıcıya %40 ömür boyu indirim."
+  },
+  "footer": {
+    "copy": "© 2026 Tracora. Track Your AI Presence.",
+    "privacy": "Gizlilik",
+    "terms": "Kullanım Şartları",
+    "agreement": "Sözleşme",
+    "contact": "İletişim"
+  }
+}

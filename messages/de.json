@@ -1,0 +1,35 @@
+{
+  "nav": { "features": "Funktionen", "motors": "KI-Motoren", "pricing": "Preise", "login": "Anmelden", "cta": "Früher Zugang" },
+  "hero": { "badge": "Früher-Zugang-Liste offen", "title1": "Wie sichtbar ist Ihre Marke", "title2": "in der KI?", "subtitle": "Überwachen Sie die Sichtbarkeit Ihrer Marke auf ChatGPT, Perplexity, Gemini, Claude, Grok und über 10 KI-Motoren. Vergleichen Sie mit Wettbewerbern und wachsen Sie. Volle Kontrolle mit Slack-Benachrichtigungen + CRM-Integration.", "discount": "40% lebenslanger Rabatt für die ersten 100 Nutzer", "noCard": "Keine Kreditkarte erforderlich.", "waitlistBtn": "Frühen Zugang erhalten" },
+  "stats": { "s1v": "73%", "s1l": "der B2B-Websites verloren 2025 organischen Traffic", "s2v": "4.4x", "s2l": "KI-Traffic konvertiert besser als SEO", "s3v": "67%", "s3l": "der Fortune-500-Unternehmen priorisieren GEO 2026", "s4v": "$7,3B", "s4l": "geschätzte Marktgröße für KI-Monitoring bis 2030" },
+  "problem": { "emoji": "😰", "title": "Ihre Kunden fragen die KI,", "titleRed": "und erhalten den Namen Ihres Konkurrenten.", "desc": "Google-Suchen sind um 40% zurückgegangen bei Nutzern, die KI-Tools zur Produktsuche verwenden. Sie erhalten eine Antwort, und Ihre Marke ist möglicherweise nicht dabei.", "pain1": "Ihre Marke ist in KI-Antworten unsichtbar", "pain2": "Wettbewerber bauen KI-Präsenz vor Ihnen auf", "pain3": "Sie haben keine Daten, keine Messung, keine Strategie" },
+  "motors": { "badge": "10+ KI-Motoren", "title": "Verfolgen Sie alle KI-Motoren", "titleGrad": "von einem Ort aus", "desc": "Während andere Tools maximal 5-6 Motoren abdecken, überwacht Tracora 10+ KI-Motoren einschließlich Claude, Grok, DeepSeek, Meta AI." },
+  "features": { "badge": "Funktionen", "title": "Alles was Konkurrenten haben +", "titleGrad": "noch viel mehr", "desc": "Während sich Marktführer nur auf GEO-Monitoring konzentrieren, treibt Tracora die Markenstrategie weiter.", "badges": { "exclusive": "Exklusiv bei Tracora", "advanced": "Erweitert", "notAtComp": "Nicht bei Konkurrenten", "agency": "Agentur" } },
+  "featureList": [
+    { "icon": "🔍", "title": "Überwachung 10+ KI-Motoren", "desc": "Überwachen Sie, wie Ihre Marke auf ChatGPT, Perplexity, Gemini, Claude, Grok, DeepSeek, Meta AI und mehr erscheint.", "badge": "notAtComp" },
+    { "icon": "🔔", "title": "Slack & Teams Benachrichtigungen", "desc": "Erhalten Sie sofortige Benachrichtigungen in Ihrem Slack- oder Teams-Kanal, wenn sich Ihre Sichtbarkeit ändert.", "badge": "exclusive" },
+    { "icon": "🔗", "title": "HubSpot & Salesforce", "desc": "Ihre KI-Sichtbarkeitsdaten fließen direkt in Ihr CRM. Ihr Vertriebsteam sieht sie ebenfalls.", "badge": "exclusive" },
+    { "icon": "📊", "title": "Wettbewerbsvergleich", "desc": "Verfolgen Sie die Wertungen Ihrer Konkurrenten auf jedem KI-Motor in Echtzeit.", "badge": "advanced" },
+    { "icon": "🎭", "title": "Sentiment-Analyse", "desc": "Wie beschreiben KI-Motoren Ihre Marke? Positiv oder negativ?", "badge": "advanced" },
+    { "icon": "💡", "title": "Content-Optimierung", "desc": "Wir zeigen Ihnen, welche Inhalte Sie schreiben müssen, um in der KI sichtbarer zu werden.", "badge": "exclusive" },
+    { "icon": "📈", "title": "KI → Verkaufs-Attribution", "desc": "Messen Sie die Auswirkung des KI-Traffics auf den Umsatz mit GA4-Integration.", "badge": "advanced" },
+    { "icon": "🏷️", "title": "White-Label-Berichte", "desc": "Für Agenturen: Erstellen Sie präsentationsfertige Berichte unter Ihrer eigenen Marke.", "badge": "agency" },
+    { "icon": "⚡", "title": "Echtzeit-API", "desc": "Integrieren Sie Tracora-Daten in Ihre eigenen Systeme über Zapier, Make und REST API.", "badge": "agency" }
+  ],
+  "comparison": { "badge": "Vergleich", "title": "Was andere haben,", "titleGrad": "was Tracora hat", "desc": "Während andere sich nur auf GEO-Monitoring konzentrieren, geht Tracora weiter.", "features": ["Anz. KI-Motoren", "Slack-Benachr.", "Teams-Benachr.", "HubSpot", "Salesforce", "Grok-Verfolgung", "DeepSeek-Verf.", "Inhaltsvorschl.", "Konkurrenz-Alarm", "White-label"], "headers": ["Tool 1", "Tool 2", "Tool 3", "Tracora"], "prices": ["$99+/Mo", "$149+/Mo", "$79+/Mo", "$49/Mo"] },
+  "pricing": { "badge": "Preise", "title": "Für Unternehmen jeder Größe", "desc": "Kostenlos testen, keine Kreditkarte. Jederzeit kündigen.", "period": "/Mo", "enterprise": "Enterprise", "enterpriseDesc": "Für 10+ Marken, individuelle Integrationen und SLA-Garantie. 50.000+ Abfragen/Tag.", "enterpriseCta": "Kontaktieren Sie uns",
+    "plans": [
+      { "name": "Starter", "price": "$49", "desc": "Für einzelne Marketer und kleine Unternehmen", "features": ["7 KI-Motoren", "1 Marke + 3 Konkurrenten", "Slack-Benachrichtigungen", "GA4-Integration", "Monatlicher PDF-Bericht", "E-Mail-Support"], "cta": "Loslegen" },
+      { "name": "Pro", "price": "$149", "desc": "Für wachsende Teams und professionelle Marketer", "features": ["10+ KI-Motoren", "5 Marken + 10 Konkurrenten", "Slack + Teams", "HubSpot-Integration", "Sentiment-Analyse", "Attributionsmodell", "Quellenzitatanalyse"], "cta": "Am beliebtesten" },
+      { "name": "Agency", "price": "$399", "desc": "Für digitale Agenturen und Multi-Client-Management", "features": ["10+ KI-Motoren", "Unbegrenzte Marken & Konkurrenten", "White-Label-Berichte", "Salesforce-Integration", "REST API-Zugang", "Kundenportal", "Dedicated Account Manager"], "cta": "Agentur-Plan" }
+    ]
+  },
+  "faq": { "badge": "FAQ", "title": "Häufig gestellte Fragen", "items": [
+    { "q": "Wie unterscheidet sich Tracora von anderen Tools?", "a": "Wir bieten 3 kritische Funktionen, die in anderen Tools nicht vorhanden sind: Echtzeit-Slack/Teams-Benachrichtigungen, CRM-Integration mit HubSpot + Salesforce und 10+ KI-Motoren." },
+    { "q": "Wie oft werden die Daten aktualisiert?", "a": "Täglicher automatischer Scan bei Starter- und Pro-Plänen. Stündlicher Scan bei Agency- und Enterprise-Plänen." },
+    { "q": "Werden echte Anfragen an KI-Motoren gesendet?", "a": "Ja. Tracora sendet echte Anfragen an jeden KI-Motor mit Ihren Schlüsselwörtern und analysiert die Antworten. Keine simulierten Daten." },
+    { "q": "Wie funktioniert White-Label für Agenturen?", "a": "Im Agency-Plan können Sie Ihr eigenes Logo, Ihre Farbpalette und Ihre Domain zu Berichten hinzufügen." }
+  ]},
+  "finalCta": { "title": "Werden Sie sichtbar im KI-Zeitalter.", "desc": "Ihr Konkurrent gewinnt gerade in der KI an Boden. Sie können nicht wachsen, was Sie nicht messen.", "waitlistBtn": "Frühen Zugang erhalten", "noCard": "Kostenlos starten. 40% lebenslanger Rabatt für die ersten 100 Nutzer." },
+  "footer": { "copy": "© 2026 Tracora. Track Your AI Presence.", "privacy": "Datenschutz", "terms": "AGB", "agreement": "Vereinbarung", "contact": "Kontakt" }
+}

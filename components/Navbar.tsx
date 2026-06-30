@@ -2,8 +2,30 @@
 
 import { useState, useEffect } from "react";
 import Logo from "@/components/Logo";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
-export default function Navbar() {
+interface NavLabels {
+  features: string;
+  motors: string;
+  pricing: string;
+  login: string;
+  cta: string;
+}
+
+const TR_DEFAULT: NavLabels = {
+  features: "Özellikler",
+  motors: "AI Motorları",
+  pricing: "Fiyatlar",
+  login: "Giriş Yap",
+  cta: "Erken Erişim Al",
+};
+
+interface NavbarProps {
+  locale?: string;
+  nav?: NavLabels;
+}
+
+export default function Navbar({ locale = "tr", nav = TR_DEFAULT }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,49 +47,30 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
         <div className="flex items-center gap-2.5">
           <Logo size={34} />
-          <span className="text-white font-bold text-xl tracking-tight">
-            Tracora
-          </span>
+          <span className="text-white font-bold text-xl tracking-tight">Tracora</span>
         </div>
 
-        {/* Nav Links */}
         <div className="hidden md:flex items-center gap-8">
-          <a
-            href="#features"
-            className="text-slate-400 hover:text-white text-sm transition-colors"
-          >
-            Özellikler
+          <a href="#features" className="text-slate-400 hover:text-white text-sm transition-colors">
+            {nav.features}
           </a>
-          <a
-            href="#motors"
-            className="text-slate-400 hover:text-white text-sm transition-colors"
-          >
-            AI Motorları
+          <a href="#motors" className="text-slate-400 hover:text-white text-sm transition-colors">
+            {nav.motors}
           </a>
-          <a
-            href="#pricing"
-            className="text-slate-400 hover:text-white text-sm transition-colors"
-          >
-            Fiyatlar
+          <a href="#pricing" className="text-slate-400 hover:text-white text-sm transition-colors">
+            {nav.pricing}
           </a>
         </div>
 
-        {/* CTA */}
-        <div className="flex items-center gap-3">
-          <a
-            href="/login"
-            className="text-slate-400 hover:text-white text-sm transition-colors"
-          >
-            Giriş Yap
+        <div className="flex items-center gap-2">
+          <LanguageSwitcher currentLocale={locale} />
+          <a href="/login" className="text-slate-400 hover:text-white text-sm transition-colors px-2">
+            {nav.login}
           </a>
-          <button
-            onClick={scrollToWaitlist}
-            className="btn-primary text-sm px-5 py-2.5"
-          >
-            Erken Erişim Al
+          <button onClick={scrollToWaitlist} className="btn-primary text-sm px-5 py-2.5">
+            {nav.cta}
           </button>
         </div>
       </div>

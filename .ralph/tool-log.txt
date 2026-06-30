@@ -43,3 +43,34 @@
 [16:03:04] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\login\page.tsx
 [16:03:19] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\middleware.ts
 [16:03:34] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\middleware.ts
+[17:09:10] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\page.tsx
+[17:09:36] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\page.tsx
+[17:10:01] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\next.config.mjs
+[17:10:33] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\i18n\routing.ts
+[17:10:47] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\i18n\request.ts
+[17:11:05] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\next.config.mjs
+[17:11:55] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\en.json
+[17:12:56] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\tr.json
+[17:13:44] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\es.json
+[17:16:52] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\pt.json
+[17:17:37] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\fr.json
+[17:18:26] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\de.json
+[17:19:35] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\ar.json
+[17:20:43] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\ja.json
+[17:21:26] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\zh.json
+[17:22:31] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\messages\hi.json
+[17:22:37] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\middleware.ts
+[17:22:47] Glob: components/*.tsx
+[17:22:47] Glob: app/**/*.tsx
+[17:22:52] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\page.tsx
+[17:22:52] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\components\Navbar.tsx
+[17:23:19] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\layout.tsx
+[17:23:19] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\i18n\routing.ts
+[17:25:18] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\aydin\users\page.tsx
+[17:25:26] Glob: package.json
+[17:25:35] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\package.json
+[17:27:57] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\components\LanguageSwitcher.tsx
+[17:28:13] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\components\Navbar.tsx
+[17:28:22] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\[locale]\layout.tsx
+[17:29:40] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\[locale]\page.tsx
+[17:29:48] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\page.tsx

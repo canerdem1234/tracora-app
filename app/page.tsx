@@ -158,7 +158,7 @@ const stats = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0f] overflow-x-hidden">
-      <Navbar />
+      <Navbar locale="tr" />
 
       {/* ───────────── HERO ───────────── */}
       <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-20 text-center">

@@ -1,0 +1,35 @@
+{
+  "nav": { "features": "機能", "motors": "AIエンジン", "pricing": "料金", "login": "ログイン", "cta": "早期アクセス" },
+  "hero": { "badge": "早期アクセスリスト受付中", "title1": "あなたのブランドはAIで", "title2": "どれほど見えていますか？", "subtitle": "ChatGPT、Perplexity、Gemini、Claude、Grokなど10以上のAIエンジンでブランドの可視性を監視。競合他社と比較し、成長させましょう。Slack通知+CRM連携で完全コントロール。", "discount": "先着100名様に40%永久割引", "noCard": "クレジットカード不要。", "waitlistBtn": "早期アクセスを取得" },
+  "stats": { "s1v": "73%", "s1l": "のB2BサイトがAI台頭で2025年にオーガニックトラフィックを失った", "s2v": "4.4x", "s2l": "AIトラフィックはSEOより高いコンバージョン率", "s3v": "67%", "s3l": "のFortune 500企業が2026年にGEOを優先", "s4v": "$7.3B", "s4l": "2030年までのAIモニタリング市場規模予測" },
+  "problem": { "emoji": "😰", "title": "顧客がAIに質問し、", "titleRed": "競合他社の名前を受け取っています。", "desc": "AIツールで製品やサービスを探すユーザーの間でGoogle検索が40%減少。彼らは答えを得ていますが、あなたのブランドはその中にないかもしれません。", "pain1": "AIの回答であなたのブランドは見えない", "pain2": "競合他社があなたより先にAI存在感を構築中", "pain3": "データも測定も戦略もない" },
+  "motors": { "badge": "10以上のAIエンジン", "title": "すべてのAIエンジンを", "titleGrad": "一か所から追跡", "desc": "他のツールが最大5〜6エンジンしかカバーしない中、TracroaはClaude、Grok、DeepSeek、Meta AIを含む10以上のAIエンジンを監視します。" },
+  "features": { "badge": "機能", "title": "競合他社が持つすべて +", "titleGrad": "それ以上", "desc": "市場リーダーがGEOモニタリングだけに集中する中、Tracoraはブランド戦略をさらに推し進めます。", "badges": { "exclusive": "Tracora限定", "advanced": "高度な機能", "notAtComp": "競合にはない", "agency": "エージェンシー" } },
+  "featureList": [
+    { "icon": "🔍", "title": "10以上のAIエンジン監視", "desc": "ChatGPT、Perplexity、Gemini、Claude、Grok、DeepSeek、Meta AIなどでブランドがどう表示されるか監視。", "badge": "notAtComp" },
+    { "icon": "🔔", "title": "Slack & Teams通知", "desc": "可視性が変化したとき、SlackまたはTeamsチャンネルに即座にアラートを受信。", "badge": "exclusive" },
+    { "icon": "🔗", "title": "HubSpot & Salesforce", "desc": "AIの可視性データが直接CRMに流れます。営業チームも確認できます。", "badge": "exclusive" },
+    { "icon": "📊", "title": "競合比較", "desc": "各AIエンジンでの競合スコアをリアルタイムで追跡。", "badge": "advanced" },
+    { "icon": "🎭", "title": "感情分析", "desc": "AIエンジンはあなたのブランドをどう説明しますか？ポジティブかネガティブか？", "badge": "advanced" },
+    { "icon": "💡", "title": "コンテンツ最適化", "desc": "AIでより見えやすくなるためにどんなコンテンツを書くべきか示します。", "badge": "exclusive" },
+    { "icon": "📈", "title": "AI→売上アトリビューション", "desc": "GA4連携でAIエンジントラフィックが売上に与える影響を具体的に測定。", "badge": "advanced" },
+    { "icon": "🏷️", "title": "ホワイトラベルレポート", "desc": "エージェンシー向け：自社ブランドでプレゼン品質のレポートを作成。", "badge": "agency" },
+    { "icon": "⚡", "title": "リアルタイムAPI", "desc": "Zapier、Make、REST APIでTracroaデータを自分のシステムに連携。", "badge": "agency" }
+  ],
+  "comparison": { "badge": "比較", "title": "他社が持つもの、", "titleGrad": "Tracoraが持つもの", "desc": "他社がGEOモニタリングのみに集中する中、Tracoraはさらに先へ。", "features": ["AIエンジン数", "Slack通知", "Teams通知", "HubSpot", "Salesforce", "Grok追跡", "DeepSeek追跡", "コンテンツ提案", "競合急上昇アラート", "ホワイトラベル"], "headers": ["ツール1", "ツール2", "ツール3", "Tracora"], "prices": ["$99+/月", "$149+/月", "$79+/月", "$49/月"] },
+  "pricing": { "badge": "料金", "title": "あらゆる規模の企業に", "desc": "無料トライアル、クレジットカード不要。いつでもキャンセル可能。", "period": "/月", "enterprise": "Enterprise", "enterpriseDesc": "10以上のブランド、カスタム連携、SLA保証。50,000以上のクエリ/日。", "enterpriseCta": "お問い合わせ",
+    "plans": [
+      { "name": "Starter", "price": "$49", "desc": "個人マーケターや小規模ビジネス向け", "features": ["7 AIエンジン", "1ブランド + 3競合", "Slack通知", "GA4連携", "月次PDFレポート", "メールサポート"], "cta": "始める" },
+      { "name": "Pro", "price": "$149", "desc": "成長するチームとプロのマーケター向け", "features": ["10以上のAIエンジン", "5ブランド + 10競合", "Slack + Teams", "HubSpot連携", "感情分析", "アトリビューションモデル", "引用元分析"], "cta": "最も人気" },
+      { "name": "Agency", "price": "$399", "desc": "デジタルエージェンシーとマルチクライアント管理向け", "features": ["10以上のAIエンジン", "ブランド・競合無制限", "ホワイトラベルレポート", "Salesforce連携", "REST APIアクセス", "クライアントポータル", "専任アカウントマネージャー"], "cta": "エージェンシープラン" }
+    ]
+  },
+  "faq": { "badge": "FAQ", "title": "よくある質問", "items": [
+    { "q": "Tracoraは他のツールとどう違いますか？", "a": "他のツールにない3つの重要機能を提供：Slack/Teamsリアルタイム通知、HubSpot+SalesforceのCRM連携、10以上のAIエンジン。" },
+    { "q": "データはどのくらいの頻度で更新されますか？", "a": "StarterとProプランでは毎日自動スキャン。AgencyとEnterpriseプランでは毎時スキャン。" },
+    { "q": "AIエンジンに実際のクエリが送られますか？", "a": "はい。Tracoraはキーワードを使って各AIエンジンに実際のクエリを送り、回答を分析します。シミュレートデータではありません。" },
+    { "q": "エージェンシー向けのホワイトラベルはどう機能しますか？", "a": "Agencyプランでは、レポートに自社ロゴ、カラーパレット、ドメインを追加できます。" }
+  ]},
+  "finalCta": { "title": "AI時代に見えるようになりましょう。", "desc": "競合他社は今まさにAIで先行しています。測定しなければ成長できません。", "waitlistBtn": "早期アクセスを取得", "noCard": "無料でスタート。先着100名様に40%永久割引。" },
+  "footer": { "copy": "© 2026 Tracora. Track Your AI Presence.", "privacy": "プライバシー", "terms": "利用規約", "agreement": "契約", "contact": "お問い合わせ" }
+}

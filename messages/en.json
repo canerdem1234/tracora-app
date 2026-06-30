@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "features": "Features",
+    "motors": "AI Engines",
+    "pricing": "Pricing",
+    "login": "Log In",
+    "cta": "Get Early Access"
+  },
+  "hero": {
+    "badge": "Early Access List Open",
+    "title1": "How Visible Is Your Brand",
+    "title2": "in AI?",
+    "subtitle": "Monitor your brand's visibility on ChatGPT, Perplexity, Gemini, Claude, Grok and 10+ AI engines. Compare with competitors and grow. Full control with Slack notifications + CRM integration.",
+    "discount": "40% lifetime discount for first 100 users",
+    "noCard": "No credit card required.",
+    "waitlistBtn": "Get Early Access"
+  },
+  "stats": {
+    "s1v": "73%", "s1l": "of B2B websites lost organic traffic in 2025",
+    "s2v": "4.4x", "s2l": "AI traffic converts higher than SEO",
+    "s3v": "67%", "s3l": "of Fortune 500 companies prioritize GEO in 2026",
+    "s4v": "$7.3B", "s4l": "estimated AI monitoring market size by 2030"
+  },
+  "problem": {
+    "emoji": "😰",
+    "title": "Your customers are asking AI,",
+    "titleRed": "and getting your competitor's name.",
+    "desc": "Google searches have dropped 40% among users who use AI tools like ChatGPT or Perplexity to find products and services. They get an answer — and your brand may not even be in it.",
+    "pain1": "Your brand is invisible in AI answers",
+    "pain2": "Competitors are building AI presence ahead of you",
+    "pain3": "You have no data, no measurement, no strategy"
+  },
+  "motors": {
+    "badge": "10+ AI Engines",
+    "title": "Track All AI Engines",
+    "titleGrad": "From One Place",
+    "desc": "While other tools cover at most 5-6 engines, Tracora monitors 10+ AI engines including Claude, Grok, DeepSeek, Meta AI. More engines means more complete data."
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Everything Your Competitors Have",
+    "titleGrad": "And More",
+    "desc": "While market leaders focus only on GEO monitoring, Tracora pushes brand strategy further.",
+    "badges": {
+      "exclusive": "Exclusive to Tracora",
+      "advanced": "Advanced",
+      "notAtComp": "Not at competitors",
+      "agency": "Agency"
+    }
+  },
+  "featureList": [
+    { "icon": "🔍", "title": "10+ AI Engine Monitoring", "desc": "Monitor how your brand appears on ChatGPT, Perplexity, Gemini, Claude, Grok, DeepSeek, Meta AI and more — all in one dashboard.", "badge": "notAtComp" },
+    { "icon": "🔔", "title": "Slack & Teams Notifications", "desc": "Get instant alerts in your Slack or Teams channel when your visibility changes or a competitor pulls ahead.", "badge": "exclusive" },
+    { "icon": "🔗", "title": "HubSpot & Salesforce", "desc": "Your AI visibility data flows directly into your CRM. Your sales team sees it too — no need to open a separate tool.", "badge": "exclusive" },
+    { "icon": "📊", "title": "Competitor Comparison", "desc": "Track your competitors' scores across every AI engine. See who's gaining ground and where you're falling behind — in real time.", "badge": "advanced" },
+    { "icon": "🎭", "title": "Sentiment Analysis", "desc": "How do AI engines describe your brand? Positive or negative? Identify which topics are being mentioned unfavorably.", "badge": "advanced" },
+    { "icon": "💡", "title": "Content Optimization", "desc": "We show you what content to write to become more visible in AI, and how much citation your existing content receives.", "badge": "exclusive" },
+    { "icon": "📈", "title": "AI → Sales Attribution", "desc": "With GA4 integration, concretely measure the impact of AI engine traffic on sales. Prove your ROI.", "badge": "advanced" },
+    { "icon": "🏷️", "title": "White-label Reports", "desc": "For agencies: create presentation-quality reports for your clients under your own brand. Tracora works behind the scenes.", "badge": "agency" },
+    { "icon": "⚡", "title": "Real-time API", "desc": "Integrate Tracora data into your own systems. Connect to 5,000+ apps via Zapier, Make, and REST API.", "badge": "agency" }
+  ],
+  "comparison": {
+    "badge": "Comparison",
+    "title": "What Others Have,",
+    "titleGrad": "What Tracora Has",
+    "desc": "While others focus on GEO monitoring only, Tracora takes brand strategy further.",
+    "features": ["AI Engine Count", "Slack Notifications", "Teams Notifications", "HubSpot", "Salesforce", "Grok Tracking", "DeepSeek Tracking", "Content Suggestions", "Competitor Spike Alert", "White-label"],
+    "headers": ["Tool 1", "Tool 2", "Tool 3", "Tracora"],
+    "prices": ["$99+/mo", "$149+/mo", "$79+/mo", "$49/mo"]
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "For Every Scale",
+    "desc": "Free trial, no credit card. Cancel anytime.",
+    "period": "/mo",
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "For 10+ brands, custom integrations, and SLA guarantee. 50,000+ queries/day.",
+    "enterpriseCta": "Talk to Us",
+    "plans": [
+      {
+        "name": "Starter", "price": "$49", "desc": "For individual marketers and small businesses",
+        "features": ["7 AI Engines", "1 Brand + 3 Competitors", "Slack Notifications", "GA4 Integration", "Monthly PDF Report", "Email Support"],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Pro", "price": "$149", "desc": "For growing teams and professional marketers",
+        "features": ["10+ AI Engines (full list)", "5 Brands + 10 Competitors", "Slack + Teams Notifications", "HubSpot Integration", "Sentiment Analysis", "Attribution Model", "Source Citation Analysis"],
+        "cta": "Most Popular"
+      },
+      {
+        "name": "Agency", "price": "$399", "desc": "For digital agencies and multi-client management",
+        "features": ["10+ AI Engines", "Unlimited Brands & Competitors", "White-label Reporting", "Salesforce Integration", "REST API Access", "Client Portal", "Dedicated Account Manager"],
+        "cta": "Agency Plan"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "q": "How is Tracora different from other tools?", "a": "We offer 3 critical features not found in other tools: Slack/Teams real-time notifications, HubSpot + Salesforce CRM integration, and 10+ AI engines (including Claude, Grok, DeepSeek, Meta AI). No alternative offers all three." },
+      { "q": "How often is data updated?", "a": "Daily automatic scanning on Starter and Pro plans. Hourly scanning on Agency and Enterprise plans. Instant changes are delivered via Slack/Teams notifications." },
+      { "q": "Are real queries sent to AI engines?", "a": "Yes. Tracora sends real queries to each AI engine using your specified keywords and analyzes the responses. Not simulated data — real-time measurement." },
+      { "q": "How does white-label work for agencies?", "a": "On the Agency plan, you can add your own logo, color palette, and domain to reports. Your clients will have no idea Tracora is behind it." }
+    ]
+  },
+  "finalCta": {
+    "title": "Be Visible in the AI Age.",
+    "desc": "Your competitor is gaining ground in AI right now. You can't grow what you don't measure.",
+    "waitlistBtn": "Get Early Access",
+    "noCard": "Start free. 40% lifetime discount for first 100 users."
+  },
+  "footer": {
+    "copy": "© 2026 Tracora. Track Your AI Presence.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "agreement": "Agreement",
+    "contact": "Contact"
+  }
+}

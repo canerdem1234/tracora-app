@@ -1,0 +1,35 @@
+{
+  "nav": { "features": "Recursos", "motors": "Motores IA", "pricing": "Preços", "login": "Entrar", "cta": "Acesso antecipado" },
+  "hero": { "badge": "Lista de acesso antecipado aberta", "title1": "Quão visível é a sua marca", "title2": "na IA?", "subtitle": "Monitore a visibilidade da sua marca no ChatGPT, Perplexity, Gemini, Claude, Grok e mais de 10 motores de IA. Compare com concorrentes e cresça. Controle total com notificações Slack + integração CRM.", "discount": "40% de desconto vitalício para os primeiros 100 usuários", "noCard": "Não é necessário cartão de crédito.", "waitlistBtn": "Obter acesso antecipado" },
+  "stats": { "s1v": "73%", "s1l": "dos sites B2B perderam tráfego orgânico em 2025", "s2v": "4.4x", "s2l": "o tráfego de IA converte mais que o SEO", "s3v": "67%", "s3l": "das empresas Fortune 500 priorizam GEO em 2026", "s4v": "$7.3B", "s4l": "tamanho estimado do mercado de monitoramento de IA até 2030" },
+  "problem": { "emoji": "😰", "title": "Seus clientes perguntam à IA", "titleRed": "e recebem o nome do seu concorrente.", "desc": "As pesquisas no Google caíram 40% entre usuários que usam ferramentas de IA para encontrar produtos e serviços. Eles recebem uma resposta, e sua marca pode não estar nela.", "pain1": "Sua marca é invisível nas respostas de IA", "pain2": "Os concorrentes estão construindo presença em IA antes de você", "pain3": "Você não tem dados, medição, nem estratégia" },
+  "motors": { "badge": "10+ Motores IA", "title": "Rastreie todos os motores de IA", "titleGrad": "em um só lugar", "desc": "Enquanto outras ferramentas cobrem no máximo 5-6 motores, o Tracora monitora 10+ incluindo Claude, Grok, DeepSeek, Meta AI." },
+  "features": { "badge": "Recursos", "title": "Tudo que os concorrentes têm +", "titleGrad": "muito mais", "desc": "Enquanto os líderes de mercado focam apenas no monitoramento GEO, o Tracora leva a estratégia de marca mais longe.", "badges": { "exclusive": "Exclusivo no Tracora", "advanced": "Avançado", "notAtComp": "Não nos concorrentes", "agency": "Agência" } },
+  "featureList": [
+    { "icon": "🔍", "title": "Monitoramento 10+ Motores IA", "desc": "Monitore como sua marca aparece no ChatGPT, Perplexity, Gemini, Claude, Grok, DeepSeek, Meta AI e mais.", "badge": "notAtComp" },
+    { "icon": "🔔", "title": "Notificações Slack & Teams", "desc": "Receba alertas instantâneos no seu canal Slack ou Teams quando sua visibilidade mudar.", "badge": "exclusive" },
+    { "icon": "🔗", "title": "HubSpot & Salesforce", "desc": "Seus dados de visibilidade de IA fluem diretamente para o seu CRM. Sua equipe de vendas também os vê.", "badge": "exclusive" },
+    { "icon": "📊", "title": "Comparação de concorrentes", "desc": "Rastreie as pontuações dos seus concorrentes em cada motor de IA em tempo real.", "badge": "advanced" },
+    { "icon": "🎭", "title": "Análise de sentimento", "desc": "Como os motores de IA descrevem sua marca? Positivo ou negativo?", "badge": "advanced" },
+    { "icon": "💡", "title": "Otimização de conteúdo", "desc": "Mostramos que conteúdo escrever para ser mais visível em IA.", "badge": "exclusive" },
+    { "icon": "📈", "title": "Atribuição IA → Vendas", "desc": "Meça o impacto do tráfego de IA nas vendas com integração GA4.", "badge": "advanced" },
+    { "icon": "🏷️", "title": "Relatórios White-label", "desc": "Para agências: crie relatórios de qualidade de apresentação sob sua própria marca.", "badge": "agency" },
+    { "icon": "⚡", "title": "API em tempo real", "desc": "Integre dados do Tracora em seus próprios sistemas via Zapier, Make e REST API.", "badge": "agency" }
+  ],
+  "comparison": { "badge": "Comparação", "title": "O que outros têm,", "titleGrad": "o que o Tracora tem", "desc": "Enquanto outros focam apenas no monitoramento GEO, o Tracora vai mais longe.", "features": ["Nº Motores IA", "Notif. Slack", "Notif. Teams", "HubSpot", "Salesforce", "Rastr. Grok", "Rastr. DeepSeek", "Sugest. Conteúdo", "Alerta Pico Rival", "White-label"], "headers": ["Ferramenta 1", "Ferramenta 2", "Ferramenta 3", "Tracora"], "prices": ["$99+/mês", "$149+/mês", "$79+/mês", "$49/mês"] },
+  "pricing": { "badge": "Preços", "title": "Para empresas de todos os tamanhos", "desc": "Teste grátis, sem cartão de crédito. Cancele quando quiser.", "period": "/mês", "enterprise": "Enterprise", "enterpriseDesc": "Para 10+ marcas, integrações personalizadas e garantia SLA. 50.000+ consultas/dia.", "enterpriseCta": "Fale conosco",
+    "plans": [
+      { "name": "Starter", "price": "$49", "desc": "Para profissionais de marketing individuais e pequenas empresas", "features": ["7 Motores IA", "1 Marca + 3 Concorrentes", "Notificações Slack", "Integração GA4", "Relatório PDF mensal", "Suporte por email"], "cta": "Começar" },
+      { "name": "Pro", "price": "$149", "desc": "Para equipes em crescimento e profissionais de marketing", "features": ["10+ Motores IA", "5 Marcas + 10 Concorrentes", "Slack + Teams", "Integração HubSpot", "Análise de sentimento", "Modelo de atribuição", "Análise de citações"], "cta": "Mais popular" },
+      { "name": "Agency", "price": "$399", "desc": "Para agências digitais e gestão multi-cliente", "features": ["10+ Motores IA", "Marcas e concorrentes ilimitados", "Relatórios White-label", "Integração Salesforce", "Acesso API REST", "Portal de clientes", "Account Manager dedicado"], "cta": "Plano Agência" }
+    ]
+  },
+  "faq": { "badge": "FAQ", "title": "Perguntas Frequentes", "items": [
+    { "q": "Como o Tracora é diferente de outras ferramentas?", "a": "Oferecemos 3 recursos críticos não encontrados em outras ferramentas: notificações em tempo real Slack/Teams, integração CRM com HubSpot + Salesforce e 10+ motores de IA." },
+    { "q": "Com que frequência os dados são atualizados?", "a": "Varredura automática diária nos planos Starter e Pro. Varredura por hora nos planos Agency e Enterprise." },
+    { "q": "Consultas reais são enviadas aos motores de IA?", "a": "Sim. O Tracora envia consultas reais a cada motor de IA com suas palavras-chave e analisa as respostas. Não são dados simulados." },
+    { "q": "Como funciona o white-label para agências?", "a": "No plano Agency, você pode adicionar seu próprio logo, paleta de cores e domínio aos relatórios." }
+  ]},
+  "finalCta": { "title": "Seja visível na era da IA.", "desc": "Seu concorrente está ganhando terreno em IA agora mesmo. Você não pode crescer o que não mede.", "waitlistBtn": "Obter acesso antecipado", "noCard": "Comece grátis. 40% de desconto vitalício para os primeiros 100 usuários." },
+  "footer": { "copy": "© 2026 Tracora. Track Your AI Presence.", "privacy": "Privacidade", "terms": "Termos", "agreement": "Acordo", "contact": "Contato" }
+}

@@ -1,0 +1,35 @@
+{
+  "nav": { "features": "功能", "motors": "AI引擎", "pricing": "价格", "login": "登录", "cta": "早期访问" },
+  "hero": { "badge": "早期访问名单开放中", "title1": "您的品牌在AI中", "title2": "有多少曝光度？", "subtitle": "监控您的品牌在ChatGPT、Perplexity、Gemini、Claude、Grok及10多个AI引擎上的可见度。与竞争对手比较并实现增长。通过Slack通知+CRM集成实现完全掌控。", "discount": "前100名用户享终身40%折扣", "noCard": "无需信用卡。", "waitlistBtn": "获取早期访问" },
+  "stats": { "s1v": "73%", "s1l": "的B2B网站在2025年失去了自然流量", "s2v": "4.4x", "s2l": "AI流量的转化率高于SEO", "s3v": "67%", "s3l": "的财富500强企业在2026年将GEO列为优先", "s4v": "$73亿", "s4l": "预计2030年AI监控市场规模" },
+  "problem": { "emoji": "😰", "title": "您的客户在询问AI，", "titleRed": "却得到了竞争对手的名字。", "desc": "在使用AI工具寻找产品和服务的用户中，Google搜索量下降了40%。他们得到了答案，而您的品牌可能不在其中。", "pain1": "您的品牌在AI回答中不可见", "pain2": "竞争对手正在您之前建立AI存在感", "pain3": "您没有数据、没有衡量、没有策略" },
+  "motors": { "badge": "10+个AI引擎", "title": "从一处追踪所有AI引擎", "titleGrad": "全面监控", "desc": "其他工具最多覆盖5-6个引擎，而Tracora监控包括Claude、Grok、DeepSeek、Meta AI在内的10多个AI引擎。" },
+  "features": { "badge": "功能", "title": "竞争对手拥有的一切 +", "titleGrad": "更多", "desc": "当市场领导者只专注于GEO监控时，Tracora将品牌策略推向更远。", "badges": { "exclusive": "Tracora独家", "advanced": "高级", "notAtComp": "竞争对手没有", "agency": "代理" } },
+  "featureList": [
+    { "icon": "🔍", "title": "监控10+个AI引擎", "desc": "监控您的品牌在ChatGPT、Perplexity、Gemini、Claude、Grok、DeepSeek、Meta AI等平台的表现。", "badge": "notAtComp" },
+    { "icon": "🔔", "title": "Slack & Teams通知", "desc": "当您的可见度发生变化时，立即在Slack或Teams频道收到提醒。", "badge": "exclusive" },
+    { "icon": "🔗", "title": "HubSpot & Salesforce", "desc": "您的AI可见度数据直接流入您的CRM。销售团队也能看到。", "badge": "exclusive" },
+    { "icon": "📊", "title": "竞争对手比较", "desc": "实时追踪竞争对手在每个AI引擎上的得分。", "badge": "advanced" },
+    { "icon": "🎭", "title": "情感分析", "desc": "AI引擎如何描述您的品牌？积极还是消极？", "badge": "advanced" },
+    { "icon": "💡", "title": "内容优化", "desc": "我们向您展示需要写什么内容才能在AI中更显眼。", "badge": "exclusive" },
+    { "icon": "📈", "title": "AI→销售归因", "desc": "通过GA4集成具体衡量AI引擎流量对销售的影响。", "badge": "advanced" },
+    { "icon": "🏷️", "title": "白标报告", "desc": "对于代理商：以您自己的品牌创建演示质量的报告。", "badge": "agency" },
+    { "icon": "⚡", "title": "实时API", "desc": "通过Zapier、Make和REST API将Tracora数据集成到您自己的系统中。", "badge": "agency" }
+  ],
+  "comparison": { "badge": "对比", "title": "其他工具有什么，", "titleGrad": "Tracora有什么", "desc": "当其他工具只专注于GEO监控时，Tracora走得更远。", "features": ["AI引擎数量", "Slack通知", "Teams通知", "HubSpot", "Salesforce", "Grok追踪", "DeepSeek追踪", "内容建议", "竞对激增警报", "白标"], "headers": ["工具1", "工具2", "工具3", "Tracora"], "prices": ["$99+/月", "$149+/月", "$79+/月", "$49/月"] },
+  "pricing": { "badge": "价格", "title": "适合各种规模的企业", "desc": "免费试用，无需信用卡。随时取消。", "period": "/月", "enterprise": "企业版", "enterpriseDesc": "适合10+个品牌、自定义集成和SLA保证。每天50,000+次查询。", "enterpriseCta": "联系我们",
+    "plans": [
+      { "name": "入门版", "price": "$49", "desc": "适合个人营销人员和小型企业", "features": ["7个AI引擎", "1个品牌+3个竞争对手", "Slack通知", "GA4集成", "每月PDF报告", "邮件支持"], "cta": "开始使用" },
+      { "name": "专业版", "price": "$149", "desc": "适合成长型团队和专业营销人员", "features": ["10+个AI引擎", "5个品牌+10个竞争对手", "Slack + Teams", "HubSpot集成", "情感分析", "归因模型", "引用来源分析"], "cta": "最受欢迎" },
+      { "name": "代理版", "price": "$399", "desc": "适合数字代理商和多客户管理", "features": ["10+个AI引擎", "无限品牌和竞争对手", "白标报告", "Salesforce集成", "REST API访问", "客户门户", "专属客户经理"], "cta": "代理方案" }
+    ]
+  },
+  "faq": { "badge": "常见问题", "title": "常见问题解答", "items": [
+    { "q": "Tracora与其他工具有何不同？", "a": "我们提供其他工具没有的3个关键功能：Slack/Teams实时通知、HubSpot+Salesforce CRM集成，以及10多个AI引擎。" },
+    { "q": "数据更新频率如何？", "a": "入门版和专业版每天自动扫描。代理版和企业版每小时扫描。" },
+    { "q": "会向AI引擎发送真实查询吗？", "a": "是的。Tracora使用您的关键词向每个AI引擎发送真实查询并分析响应。不是模拟数据。" },
+    { "q": "代理商的白标功能如何运作？", "a": "在代理版中，您可以在报告中添加自己的徽标、调色板和域名。" }
+  ]},
+  "finalCta": { "title": "在AI时代提升您的品牌可见度。", "desc": "您的竞争对手现在正在AI中抢占先机。不衡量就无法增长。", "waitlistBtn": "获取早期访问", "noCard": "免费开始。前100名用户享终身40%折扣。" },
+  "footer": { "copy": "© 2026 Tracora. Track Your AI Presence.", "privacy": "隐私政策", "terms": "服务条款", "agreement": "用户协议", "contact": "联系我们" }
+}
