@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import Logo from "@/components/Logo";
 
 export default async function DashboardLayout({
   children,
@@ -19,10 +20,8 @@ export default async function DashboardLayout({
       {/* Sidebar */}
       <aside className="fixed left-0 top-0 h-full w-64 bg-white/3 border-r border-white/5 flex flex-col">
         <div className="p-6 border-b border-white/5">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">T</span>
-            </div>
+          <Link href="/" className="flex items-center gap-2.5">
+            <Logo size={32} />
             <span className="text-white font-bold text-xl">Tracora</span>
           </Link>
         </div>

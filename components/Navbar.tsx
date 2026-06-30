@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Logo from "@/components/Logo";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,10 +26,8 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-            <span className="text-white font-bold text-sm">T</span>
-          </div>
+        <div className="flex items-center gap-2.5">
+          <Logo size={34} />
           <span className="text-white font-bold text-xl tracking-tight">
             Tracora
           </span>

@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { loginSchema } from "@/lib/validations";
+import Logo from "@/components/Logo";
 
 function LoginForm() {
   const router = useRouter();
@@ -103,10 +104,8 @@ export default function LoginPage() {
     <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 mb-6">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">T</span>
-            </div>
+          <Link href="/" className="inline-flex items-center gap-2.5 mb-6">
+            <Logo size={36} />
             <span className="text-white font-bold text-xl">Tracora</span>
           </Link>
           <h1 className="text-2xl font-bold text-white">Giriş Yap</h1>

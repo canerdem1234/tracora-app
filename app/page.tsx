@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import WaitlistForm from "@/components/WaitlistForm";
 import ScrollButton from "@/components/ScrollButton";
+import Logo from "@/components/Logo";
 
 const features = [
   {
@@ -130,8 +131,8 @@ const plans = [
 
 const faqs = [
   {
-    q: "Tracora rakip araçlardan nasıl farklı?",
-    a: "Rakip araçlarda olmayan 3 kritik özellik sunuyoruz: Slack/Teams gerçek zamanlı bildirimi, HubSpot + Salesforce CRM entegrasyonu ve 10+ AI motoru (Claude, Grok, DeepSeek, Meta AI dahil). Hiçbir rakip bu 3'ünü birden sunmuyor.",
+    q: "Tracora diğer araçlardan nasıl farklı?",
+    a: "Piyasadaki diğer araçlarda olmayan 3 kritik özellik sunuyoruz: Slack/Teams gerçek zamanlı bildirimi, HubSpot + Salesforce CRM entegrasyonu ve 10+ AI motoru (Claude, Grok, DeepSeek, Meta AI dahil). Hiçbir alternatif bu 3'ünü birden sunmuyor.",
   },
   {
     q: "Veriler ne sıklıkla güncelleniyor?",
@@ -249,7 +250,7 @@ export default function Home() {
             Tüm AI Motorlarını Tek Yerden İzleyin
           </h2>
           <p className="text-slate-400 mb-12 max-w-xl mx-auto">
-            Rakipler maksimum 6-9 motor izliyor. Biz Grok, DeepSeek ve Meta AI
+            Piyasadaki diğer araçlar maksimum 6-9 motor izliyor. Biz Grok, DeepSeek ve Meta AI
             dahil piyasanın en geniş kapsamını sunuyoruz.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
@@ -327,9 +328,9 @@ export default function Home() {
                 <thead>
                   <tr className="border-b border-white/10">
                     <th className="text-left py-4 px-6 text-slate-400 font-medium text-sm">Özellik</th>
-                    <th className="py-4 px-4 text-slate-400 font-medium text-sm text-center">Rank Prompt</th>
-                    <th className="py-4 px-4 text-slate-400 font-medium text-sm text-center">Peekaboo</th>
-                    <th className="py-4 px-4 text-slate-400 font-medium text-sm text-center">Brand24</th>
+                    <th className="py-4 px-4 text-slate-400 font-medium text-sm text-center">Araç 1</th>
+                    <th className="py-4 px-4 text-slate-400 font-medium text-sm text-center">Araç 2</th>
+                    <th className="py-4 px-4 text-slate-400 font-medium text-sm text-center">Araç 3</th>
                     <th className="py-4 px-4 font-bold text-sm text-center">
                       <span className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Tracora</span>
                     </th>
@@ -497,9 +498,7 @@ export default function Home() {
       <footer className="border-t border-white/5 py-10 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center">
-              <span className="text-white font-bold text-xs">T</span>
-            </div>
+            <Logo size={28} />
             <span className="text-white font-bold">Tracora</span>
           </div>
           <p className="text-slate-600 text-sm">© 2026 Tracora. Track Your AI Presence.</p>
