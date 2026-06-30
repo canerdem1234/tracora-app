@@ -57,7 +57,7 @@ export async function middleware(request: NextRequest) {
   }
 
   // Admin ve Dashboard rotaları için auth kontrolü
-  if (pathname.startsWith("/dashboard") || pathname.startsWith("/admin")) {
+  if (pathname.startsWith("/dashboard") || pathname.startsWith("/aydin")) {
     const supabase = createServerClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -123,7 +123,7 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/dashboard/:path*",
-    "/admin/:path*",
+    "/aydin/:path*",
     "/login",
     "/signup",
     "/api/:path*",

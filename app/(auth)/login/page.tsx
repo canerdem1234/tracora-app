@@ -7,10 +7,12 @@ import { createClient } from "@/lib/supabase/client";
 import { loginSchema } from "@/lib/validations";
 import Logo from "@/components/Logo";
 
+const ADMIN_EMAIL = "aydinticaret00@gmail.com";
+
 function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const redirect = searchParams.get("redirect") ?? "/dashboard";
+  const redirectParam = searchParams.get("redirect");
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -36,12 +38,16 @@ function LoginForm() {
       });
 
       if (authError) {
-        // Enumeration koruması: "kullanıcı yok" ile "şifre yanlış" aynı mesaj
         setError("Email veya şifre hatalı.");
         return;
       }
 
-      router.push(redirect);
+      // Admin email ise direkt admin paneline yönlendir
+      if (result.data.email === ADMIN_EMAIL) {
+        router.push("/aydin");
+      } else {
+        router.push(redirectParam ?? "/dashboard");
+      }
       router.refresh();
     } finally {
       setLoading(false);

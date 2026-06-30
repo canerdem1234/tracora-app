@@ -1,0 +1,45 @@
+[13:04:15] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && npm install zod @supabase/
+[13:04:42] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\next.config.mjs
+[13:05:17] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\middleware.ts
+[13:05:39] BASH: mkdir -p "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app/lib/supabase"
+[13:05:48] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\supabase\client.ts
+[13:06:01] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\supabase\server.ts
+[13:06:36] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\validations.ts
+[13:07:21] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\supabase-schema.sql
+[13:07:47] BASH: mkdir -p "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app/app/(auth)/login" && mkd
+[13:08:06] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\login\page.tsx
+[13:08:31] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\signup\page.tsx
+[13:08:43] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\auth\callback\route.ts
+[13:09:19] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(dashboard)\layout.tsx
+[13:09:45] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(dashboard)\dashboard\page.tsx
+[13:10:12] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\auth\signout\route.ts
+[13:10:24] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\waitlist\route.ts
+[13:10:43] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\queries\route.ts
+[13:11:21] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\openai.ts
+[13:11:54] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\.env.local.example
+[13:12:03] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\.env.local.example
+[13:12:11] BASH: cat "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app/.gitignore" | grep -E "env|se
+[13:13:35] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && npm run build 2>&1 | tail 
+[13:13:57] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && node -e "const z = require
+[13:14:07] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\login\page.tsx
+[13:14:16] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\signup\page.tsx
+[13:14:25] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\waitlist\route.ts
+[13:14:34] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\api\queries\route.ts
+[13:15:35] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && npm run build 2>&1 | tail 
+[13:15:51] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\validations.ts
+[13:16:43] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && npm run build 2>&1 | tail 
+[13:17:01] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\openai.ts
+[13:17:10] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\lib\openai.ts
+[13:18:05] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && npm run build 2>&1 | tail 
+[13:18:27] WRITE: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\login\page.tsx
+[13:19:40] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && npm run build 2>&1 | tail 
+[14:02:15] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && git add middleware.ts next
+[14:02:48] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && git commit -m "$(cat <<'EO
+[14:04:40] BASH: cd "d:/CLOUDE YAPILAN İŞLER/TRACORA/tracora-app" && git push origin main 2>&1
+[14:53:32] BASH: cd "d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app" && git status
+[16:02:29] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\aydin\layout.tsx
+[16:02:38] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\aydin\layout.tsx
+[16:02:49] READ: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\login\page.tsx
+[16:03:04] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\app\(auth)\login\page.tsx
+[16:03:19] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\middleware.ts
+[16:03:34] EDIT: d:\CLOUDE YAPILAN İŞLER\TRACORA\tracora-app\middleware.ts
