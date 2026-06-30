@@ -299,7 +299,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold text-white mb-4">15. Uygulanacak Hukuk ve Yetki</h2>
             <p>
               Bu Şartlar, Türkiye Cumhuriyeti kanunlarına tabidir. Bu Şartlar'dan doğan her türlü
-              uyuşmazlıkta <strong className="text-white">İstanbul (Çağlayan) Mahkemeleri ve İcra Daireleri</strong> münhasıran
+              uyuşmazlıkta <strong className="text-white">Konya Mahkemeleri ve İcra Daireleri</strong> münhasıran
               yetkilidir.
             </p>
             <p className="mt-3">

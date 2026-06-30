@@ -250,7 +250,7 @@ export default function UserAgreementPage() {
               </li>
               <li>
                 <strong className="text-white">Yargı yolu:</strong> Arabuluculuğun da sonuçsuz kalması halinde
-                <strong className="text-white"> İstanbul (Çağlayan) Mahkemeleri ve İcra Daireleri</strong> münhasıran yetkilidir.
+                <strong className="text-white"> Konya Mahkemeleri ve İcra Daireleri</strong> münhasıran yetkilidir.
               </li>
             </ol>
             <p className="mt-4">
